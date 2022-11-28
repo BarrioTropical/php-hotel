@@ -71,8 +71,8 @@ $hotels = [
         <table class="table text-white table-bordered text-center m-3">
             <thead>
                 <tr>
-                    <th scope="col">Nome</th>
-                    <th scope="col">Descrizione</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
                     <th scope="col">Vote</th>
                     <th scope="col">Distance</th>
                 </tr>
@@ -81,8 +81,8 @@ $hotels = [
                 <tr>
                     <td><?php echo $hotel['name'] ?></td>
                     <td><?php echo $hotel['description'] ?></td>
-                    <td><?php echo $hotel['vote'] ?></td>
-                    <td><?php echo $hotel['distance_to_center'] ?></td>
+                    <td><?php echo $hotel['vote'] ?> / 10</td>
+                    <td><?php echo $hotel['distance_to_center'] ?> km</td>
                 </tr>
             </tbody>
         </table>
